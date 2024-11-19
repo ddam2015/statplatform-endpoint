@@ -1,0 +1,6 @@
+[build]
+  functions = "functions"
+[[redirects]]
+  to = "/.netlify/functions/index/:param"
+  from = "/*"
+  status = 200
